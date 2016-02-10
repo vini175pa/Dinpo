@@ -1,0 +1,2122 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"classNa",
+				"classNames"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"insert",
+				"insertMode"
+			],
+			[
+				"at",
+				"alternative"
+			],
+			[
+				"alter",
+				"alternative"
+			],
+			[
+				"sele",
+				"selections"
+			],
+			[
+				"get",
+				"getEs6Import"
+			],
+			[
+				"run",
+				"run_command	(import-js.py)"
+			],
+			[
+				"modul",
+				"moduleName"
+			],
+			[
+				"ext",
+				"extends"
+			],
+			[
+				"RECEIV",
+				"RECEIVE_RAW_MESSAGES	(ServerActionCreators.js)"
+			],
+			[
+				"REICE",
+				"RECEIVE_THREAD	(ServerActionCreators.js)"
+			],
+			[
+				"curre",
+				"currentThreadID"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"getAll",
+				"getAllAdmins"
+			],
+			[
+				"mini",
+				"minifyThread"
+			],
+			[
+				"minf",
+				"minifyThread"
+			],
+			[
+				"the",
+				"threadID"
+			],
+			[
+				"thre",
+				"threads"
+			],
+			[
+				"threa",
+				"threadID"
+			],
+			[
+				"messa",
+				"messages"
+			],
+			[
+				"thr",
+				"thread"
+			],
+			[
+				"The",
+				"ThreadStore"
+			],
+			[
+				"Mes",
+				"MessageStore"
+			],
+			[
+				"MEssage",
+				"MessageStore"
+			],
+			[
+				"com",
+				"componentWillMount	(ThreadSection.jsx)"
+			],
+			[
+				"thread",
+				"threadID	(ThreadStore.js)"
+			],
+			[
+				"active",
+				"activeChat	(Webhook.js)"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"soc",
+				"sockets"
+			],
+			[
+				"current",
+				"currentId	(ThreadStore.js)"
+			],
+			[
+				"Thr",
+				"ThreadStore"
+			],
+			[
+				"sesio",
+				"sessionID"
+			],
+			[
+				"cosnoe",
+				"console"
+			],
+			[
+				"eve",
+				"events"
+			],
+			[
+				"ex",
+				"extends	(BaseStore.js)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"A",
+				"AppDispatcher"
+			],
+			[
+				"Thre",
+				"ThreadListItem	(ThreadList.react.js)"
+			],
+			[
+				"Threa",
+				"ThreadAction"
+			],
+			[
+				"Th",
+				"ThreadStore"
+			],
+			[
+				"rcc",
+				"rcc	React: legacy component"
+			],
+			[
+				"obje",
+				"object_values"
+			],
+			[
+				"sess",
+				"sessionID"
+			],
+			[
+				"session",
+				"sessionID"
+			],
+			[
+				"pass",
+				"password	(DBConnection.js)"
+			],
+			[
+				"load",
+				"loading"
+			],
+			[
+				"LOG",
+				"LOGOUT	(ServerActionCreators.js)"
+			],
+			[
+				"login",
+				"logInAndAuthenticateUser	(app.js)"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"metho",
+				"method	(Webhook.js)"
+			],
+			[
+				"d",
+				"dinpo.min.css"
+			],
+			[
+				"serv",
+				"serverURL"
+			],
+			[
+				"Login",
+				"LoginPageInstance"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"logi",
+				"loginFailed"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"LOGIN",
+				"LOGIN_FAILED_EVENT"
+			],
+			[
+				"list",
+				"listeners"
+			],
+			[
+				"call",
+				"callback	(MessageStore.js)"
+			],
+			[
+				"add",
+				"addOnLoginFailed	(LoginPage.react.js)"
+			],
+			[
+				"proto",
+				"prototype	(MessageStore.js)"
+			],
+			[
+				"cwm",
+				"cwm	React: componentWillMount() {…}"
+			],
+			[
+				"cal",
+				"callback"
+			],
+			[
+				"CHA",
+				"CHANGE_EVENT"
+			],
+			[
+				"CHAN",
+				"CHANGE_LOGIN_EVENT"
+			],
+			[
+				"logge",
+				"loggedUser"
+			],
+			[
+				"dis",
+				"dispatchToken	(MessageStore.js)"
+			],
+			[
+				"RE",
+				"RECEIVE_RAW_CREATED_MESSAGE	(AppConstants.js)"
+			],
+			[
+				"co",
+				"constants/"
+			],
+			[
+				"dropdo",
+				"dropdownVisible"
+			],
+			[
+				"Message",
+				"MessagesPageComposer	(MessagesPageComposer.react.js)"
+			],
+			[
+				"on",
+				"onHeightChange	(Chat.react.js)"
+			],
+			[
+				"Users",
+				"UsersPageInstance"
+			],
+			[
+				"Logi",
+				"LoginPageInstance"
+			],
+			[
+				"expo",
+				"exports	(Webhook.js)"
+			],
+			[
+				"fail",
+				"failed"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"getEle",
+				"getElementWithId"
+			],
+			[
+				"displ",
+				"displayName	(ChatComponent.js)"
+			],
+			[
+				"defa",
+				"default	(calculateNodeHeight.js)"
+			],
+			[
+				"styl",
+				"style	(style.less)"
+			],
+			[
+				"defaul",
+				"defaultProps	(TextareaAutosize.js)"
+			],
+			[
+				"mess",
+				"messagesHeight"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"uploa",
+				"uploading"
+			],
+			[
+				"cover",
+				"coverUploaded"
+			],
+			[
+				"uplo",
+				"uploadingCover"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"cove",
+				"coverUploaded"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"edit",
+				"editVisible"
+			],
+			[
+				"editi",
+				"editingVisible"
+			],
+			[
+				"edii",
+				"editingVisible"
+			],
+			[
+				"modu",
+				"module.exports"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"isVi",
+				"isVisible"
+			],
+			[
+				"rebun",
+				"rebundleReact"
+			],
+			[
+				"comp",
+				"compileReact"
+			],
+			[
+				"rebu",
+				"rebundleReact"
+			],
+			[
+				"wat",
+				"watchify"
+			],
+			[
+				"bak",
+				"background"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"padi",
+				"padding"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"padin",
+				"padding-top"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"POS",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"pos",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"console",
+				"console.log"
+			],
+			[
+				"consoe",
+				"console	(index.js)"
+			],
+			[
+				"selec",
+				"select"
+			],
+			[
+				"des",
+				"deserializeUser	(app.js)"
+			],
+			[
+				"cleari",
+				"clearInterval"
+			],
+			[
+				"componentDidU",
+				"componentDidUnmount	(Application.js)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/html/dinpo/src/js/components/Login/index.jsx",
+			"settings":
+			{
+				"buffer_size": 2656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "⠤\n▸ dist/\n▸ lib/\n▸ models/\n▸ node_modules/\n▾ src/\n	▸ images/\n	▾ js/\n		▸ actions/\n		▾ components/\n			▸ elements/\n			▾ Login/\n				≡ index.jsx\n			▸ Messages/\n			▸ Users/\n		▸ dispatchers/\n		▸ services/\n		▸ stores/\n		▸ utils/\n		≡ app.js\n	▸ style/\n▸ views/\n≡ .sublime-gulp.cache\n≡ config.json\n≡ gulpfile.js\n≡ index.html\n≡ package.json\n≡ routes.js\n≡ server.js\n≡ sockets.js",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Unix",
+				"name": "𝌆 dinpo",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "ServerActions.js",
+			"settings":
+			{
+				"buffer_size": 226,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/dinpo/src/js/app.js",
+			"settings":
+			{
+				"buffer_size": 186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/dinpo/src/style/style.less",
+			"settings":
+			{
+				"buffer_size": 26665,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ref",
+				"Side Bar: Refresh"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"gulp",
+				"Gulp"
+			],
+			[
+				"gul",
+				"Gulp"
+			],
+			[
+				"browse pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"ex",
+				"Format CSS: Expanded"
+			],
+			[
+				"jad",
+				"Set Syntax: Jade"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"bb",
+				"Beautify::Beautify File"
+			],
+			[
+				"bal",
+				"Bookmarks: Clear All"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bable",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"baba",
+				"Babel Transform"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"css",
+				"Format CSS: Expanded (Break Selectors)"
+			],
+			[
+				"eva",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"import",
+				"ImportJS: import word under cursor"
+			],
+			[
+				"exa",
+				"Format CSS: Expanded"
+			],
+			[
+				"packa in",
+				"Package Control: Install Package"
+			],
+			[
+				"impo",
+				"ImportJS: import word under cursor"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"got",
+				"ImportJS: goto module"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"jslint",
+				"JSLint"
+			],
+			[
+				"jslin",
+				"Build With: JSLint"
+			],
+			[
+				"fix all",
+				"ImportJS: fix all imports"
+			],
+			[
+				"goto ",
+				"ImportJS: goto module"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"isnta",
+				"npm: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"package on",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"brosemode",
+				"Browse Mode: Jump List Quick Panel"
+			],
+			[
+				"bros",
+				"Browse Mode: Jump List"
+			],
+			[
+				"impor",
+				"ImportJS: goto module"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"open p",
+				"Terminal: Open in project folder"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"jaav",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON (Javascript Next)"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"jsonli",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"npmin",
+				"npm: Install Package"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Format: Javascript"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"setState",
+				"Snippet: React: this.setState({ ... })"
+			],
+			[
+				"mini",
+				"Minify Javascript to file"
+			],
+			[
+				"min",
+				"Minify::Minify File"
+			],
+			[
+				"minf",
+				"Minify Javascript to file"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"npm",
+				"npm: Run..."
+			],
+			[
+				"new b",
+				"Build: New Build System"
+			],
+			[
+				"npmru",
+				"npm: Run Tests"
+			],
+			[
+				"npm run",
+				"npm: Run Tests"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"fake",
+				"Fake: it!"
+			],
+			[
+				"time",
+				"Fake: unix_time"
+			],
+			[
+				"fakeit",
+				"Fake: it!"
+			],
+			[
+				"fake name",
+				"Fake: domain_name"
+			],
+			[
+				"getIN",
+				"Snippet: React: getInitialState: fn() { return {...} } "
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"reac",
+				"Snippet: reactClass"
+			],
+			[
+				"react clas",
+				"Snippet: React: var cx = React.addons.classSet;"
+			],
+			[
+				"react",
+				"Set Syntax: React Templates"
+			],
+			[
+				"ja",
+				"Set Syntax: Jade"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ident",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 341.0,
+		"history":
+		[
+			"view.sel()[0] == view.sel()[-1]",
+			"view.sel().size()",
+			"view.sel().length",
+			"view.sel()",
+			"view.sel()[0]",
+			"self.view.sel()",
+			"view.sel()[0].end()",
+			"view.sel()[0]",
+			"view.sel()[0].get",
+			"view.sel()[0]",
+			"view.sel()[0][1]",
+			"view.sel()[0]",
+			"view.sel()[1]",
+			"view.sel()[0]",
+			"view.sel()[]",
+			"view.sel()",
+			"self.view.sel()",
+			"view.run_command('example_s2')",
+			"view.run_command('import_es6')",
+			"view.run_command('example_s2')",
+			"view.run_command('examples2')",
+			"view.run_command('exampleS2')",
+			"view.run_command('example2')",
+			"view.run_command('example')",
+			"view.run_command('import')",
+			"view.run_command('ImportES6')",
+			"view.run_command('importES6')",
+			"view.run_command('importEs6')",
+			"view.run_command('importes6')",
+			"view.run_command('import')",
+			"view.run_command('importes6')",
+			"view.run_command(import_es6')",
+			"view.run_command('importES6')",
+			"view.run_command('importes6')",
+			"view.run_command('example')",
+			"view.run",
+			"view.run_command('refresh')",
+			"view.run_command('reload')",
+			"view.run_command('refresh')",
+			"exit",
+			"view.run_command('example')",
+			"view.run_command('import')",
+			"view.run_command('ImportES6')",
+			"view.run_command('importES6')",
+			"view.run_command('importes6')",
+			"view.run_command('example')",
+			"view",
+			"print(\" ......... \\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\")",
+			"print(\" ......... \\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\")",
+			"print(\" ......... \\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\")",
+			"print \" ......... \\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\"",
+			".",
+			"cls",
+			"clear",
+			"clean",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/dinpo",
+		"/var/www/html/dinpo/src",
+		"/var/www/html/dinpo/src/js",
+		"/var/www/html/dinpo/src/js/actions",
+		"/var/www/html/dinpo/src/js/components",
+		"/var/www/html/dinpo/src/js/components/Login"
+	],
+	"file_history":
+	[
+		"/home/murdock/.config/sublime-text-3/Packages/importES6/index.py",
+		"/home/murdock/.config/sublime-text-3/Packages/importES6/test.js",
+		"/home/murdock/.config/sublime-text-3/Packages/import-js/import-js.py",
+		"/home/murdock/.config/sublime-text-3/Packages/importES6/Default.sublime-commands",
+		"/home/murdock/.config/sublime-text-3/Packages/sublime-import-js/Default.sublime-commands",
+		"/home/murdock/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/murdock/.config/sublime-text-3/Packages/importES6/LICENSE.txt",
+		"/home/murdock/.config/sublime-text-3/Packages/import-js/Default.sublime-commands",
+		"/home/murdock/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/murdock/.config/sublime-text-3/Packages/importES6/import-es6.py",
+		"/home/murdock/.config/sublime-text-3/Packages/import-js/ImportJS.sublime-settings",
+		"/var/www/html/dinpo/package.json",
+		"/var/www/html/opensource/chat/server/server.js",
+		"/home/murdock/lab/react-router/modules/RouterUtils.js",
+		"/home/murdock/lab/react-router/modules/routerWarning.js",
+		"/var/www/html/dinpo/src/stores/BaseStore.js",
+		"/var/www/html/dinpo/src/stores/LoginStore.js",
+		"/var/www/html/dinpo/dist/dinpo.js",
+		"/var/www/html/opensource/chat/src/build/utils/ChatUtils.js",
+		"/home/murdock/lab/flux/examples/flux-chat/js/actions/ChatMessageActionCreators.js",
+		"/home/murdock/.config/sublime-text-3/Packages/Gulp/gulp.py",
+		"/home/murdock/.config/sublime-text-3/Packages/Gulp/base_command.py",
+		"/var/www/html/opensource/chat/src/build/stores/LoginStore.js",
+		"/var/www/html/opensource/chat/src/build/components/ThreadSection.jsx",
+		"/var/www/html/opensource/chat/src/build/components/ThreadListItem.jsx",
+		"/var/www/html/opensource/chat/src/build/stores/ThreadStore.js",
+		"/var/www/html/opensource/chat/src/build/utils/Webhook.js",
+		"/var/www/html/opensource/chat/index.html",
+		"/var/www/html/opensource/chat/src/build/components/Login.jsx",
+		"/var/www/html/opensource/chat/src/build/style.less",
+		"/var/www/html/opensource/chat/server/sockets.js",
+		"/var/www/html/opensource/chat/src/build/components/Chat.jsx",
+		"/var/www/html/opensource/chat/src/build/components/Home.jsx",
+		"/var/www/html/opensource/chat/src/build/components/App.jsx",
+		"/var/www/html/opensource/chat/src/build/actions/ServerActionCreators.js",
+		"/var/www/html/opensource/chat/src/build/constants/AppConstants.js",
+		"/var/www/html/opensource/chat/src/build/stores/BaseStore.js",
+		"/var/www/html/opensource/chat/src/package.json",
+		"/var/www/html/opensource/chat/src/build/app.js",
+		"/var/www/html/opensource/chat/src/build/components/Header.jsx",
+		"/var/www/html/opensource/chat/src/build/stores/MessageStore.js",
+		"/var/www/html/opensource/chat/src/gulpfile.js",
+		"/home/murdock/lab/microtests/test.js",
+		"/var/www/html/opensource/chat/src/test.js",
+		"/var/www/html/opensource/chat/src/dist/dinpo.js",
+		"/var/www/html/opensource/chat/src/build/dispatchers/AppDispatcher.js",
+		"/var/www/html/opensource/chat/server/lib/DBConnection.js",
+		"/var/www/html/opensource/chat/server/models/User.js",
+		"/var/www/html/opensource/chat/server/lib/utils.js",
+		"/home/murdock/production/Norty/package.json",
+		"/var/www/html/opensource/chat/server/routes.js",
+		"/home/murdock/production/Norty/views/layouts/default.jade",
+		"/var/www/html/opensource/chat/server/views/index.jade",
+		"/var/www/html/opensource/chat/server/config.json",
+		"/var/www/html/opensource/chat/package.json",
+		"/var/www/html/opensource/chat/src/build/actions/ThreadActionCreators.js",
+		"/var/www/html/opensource/chat/src/build/utils/chatUtils.js",
+		"/var/www/html/opensource/chat/src/build/stores/UserStore.js",
+		"/var/www/html/opensource/chat/src/build/components/AppHeader.jsx",
+		"/var/www/html/opensource/chat/src/build/stores/AuthStore.js",
+		"/var/www/html/opensource/chat/server/index.html",
+		"/home/murdock/production/Norty/app.js",
+		"/var/www/html/opensource/chat/server/package.json",
+		"/var/www/html/opensource/chat/server/node_modules/socket.io/lib/socket.js",
+		"/var/www/html/opensource/chat/server/dist",
+		"/var/www/html/opensource/chat/src/build/components/PageHeader.react.js",
+		"/home/murdock/production/Norty/routes/index.js",
+		"/var/www/html/opensource/chat/src/build/components/Chat.react.js",
+		"/var/www/html/opensource/chat/src/build/components/Message.react.js",
+		"/var/www/html/opensource/chat/src/build/components/LoginPage.react.js",
+		"/var/www/html/opensource/chat/src/build/components/MessagesPage.react.js",
+		"/var/www/html/opensource/chat/src/build/components/MessagesPageComposer.react.js",
+		"/var/www/html/opensource/chat/src/build/components/Page.react.js",
+		"/var/www/html/opensource/chat/src/build/components/UsersPage.react.js",
+		"/var/www/html/opensource/chat/src/build/dispatcher/AppDispatcher.js",
+		"/var/www/html/opensource/chat/src/dist/dinpo.css",
+		"/var/www/html/opensource/chat/src/build/components/TextareaAutosize.js",
+		"/var/www/html/opensource/chat/src/build/utils/calculateNodeHeight.js",
+		"/var/www/html/opensource/chat/src/build/components/LoginPageComponent.js",
+		"/media/murdock/682436B0243680DC/xampp/htdocs/chat/index.html",
+		"/var/www/html/opensource/chat/src/build/components/TestFun.js",
+		"/var/www/html/opensource/chat/src/build/components/PageComponent.js",
+		"/var/www/html/opensource/chat/src/build/components/Message.js",
+		"/var/www/html/opensource/chat/src/dinpo.js",
+		"/var/www/html/opensource/chat/src/dist/dinpo.min.css",
+		"/home/murdock/production/Norty/dist/html/dashboard.html",
+		"/home/murdock/production/Norty/build/react/components/FSPages/FSNewPage.jsx",
+		"/home/murdock/production/Norty/build/react/components/FSListPages.jsx",
+		"/home/murdock/production/Norty/tests/test.js",
+		"/home/murdock/production/Norty/gulpfile.js",
+		"/home/murdock/production/Norty/build/react/components/FSModal.jsx",
+		"/home/murdock/production/Norty/build/react/components/elements/Preloader.jsx",
+		"/home/murdock/production/Norty/public/css/style.css",
+		"/home/murdock/production/Norty/views/view/test.jade",
+		"/home/murdock/production/Norty/views/view/dashboard.jade",
+		"/home/murdock/production/Norty/build/react/app.js",
+		"/home/murdock/production/Norty/build/react/components/FSNewPage.jsx",
+		"/home/murdock/production/Norty/node_modules/mocha/node_modules/jade/test.jade",
+		"/home/murdock/production/Norty/dist/react/bundle.js",
+		"/home/murdock/production/Norty/dist/build/react/app.js",
+		"/home/murdock/production/Norty/.importjs.json",
+		"/home/murdock/production/test/index.js",
+		"/home/murdock/production/test/test.jsx",
+		"/home/murdock/production/test/gulpfile.js",
+		"/home/murdock/production/test/build/index.js",
+		"/home/murdock/production/test/build/build.js.map",
+		"/home/murdock/production/test/build/build.js",
+		"/home/murdock/production/test/bundle.js",
+		"/home/murdock/production/Norty/public/css/bootstrap.css",
+		"/home/murdock/production/Norty/views/layouts/header.jade",
+		"/home/murdock/production/Norty/build/toReact/fs_modal.html",
+		"/home/murdock/production/Norty/public/css/preloader.css",
+		"/home/murdock/production/Norty/public/react/components/FSModal.js",
+		"/home/murdock/production/Norty/build/css/style.css",
+		"/home/murdock/Desktop/asdasd",
+		"/home/murdock/Desktop/default",
+		"/home/murdock/Desktop/jasdasjlasd",
+		"/home/murdock/Desktop/ssNorty.txtx",
+		"/home/murdock/Desktop/asdasd.png",
+		"/home/murdock/Desktop/asdasd.html",
+		"/home/murdock/production/Norty/views/view/login.jade",
+		"/home/murdock/production/Norty/views/view/profile.jade",
+		"/home/murdock/production/Norty/config.json",
+		"/home/murdock/production/Norty/models/User.js",
+		"/home/murdock/production/Norty/views/view/signup.jade",
+		"/home/murdock/production/Norty/Configuration.js",
+		"/home/murdock/production/Norty/public/js/pages/login.js",
+		"/home/murdock/production/Norty/views/elements/scripts.jade"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/var/www/html/opensource/chat/src/build/components",
+			"/home/murdock/production/ReactServer",
+			"/var/www/html/intrasocial/app",
+			"/var/www/html/intrasocial/app/View/Elements",
+			"/var/www/html/intrasocial/app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"importion",
+			"importation",
+			"importion",
+			"parsed",
+			"getDefa",
+			"sp",
+			"replace",
+			"word",
+			"connect-mongo",
+			"connect",
+			"browserHistory",
+			"rawMessage",
+			"chatUtils",
+			"utils",
+			"get_local_id",
+			"list",
+			".chat",
+			"current-title",
+			"box-shadow: 0 1px",
+			"message-content",
+			"box-sha",
+			"minifyThread",
+			"socketToThread",
+			"socketsToThreads",
+			"sockets",
+			"threads",
+			"sockets[",
+			"sockets",
+			"listeners",
+			"_messages",
+			"ThreadStore",
+			");\n",
+			"host",
+			"command",
+			"gulp",
+			"transition",
+			"box-shadow",
+			"title",
+			"pages",
+			"chat-input",
+			".dinpo-message-from-other",
+			"messageFromOtherBackground",
+			"socketToThread",
+			"thread: get all",
+			"Instance",
+			"thread",
+			"get",
+			"loggedUser",
+			"listeners",
+			"AuthStore",
+			"ThreadStore.events",
+			"listeners",
+			"this.listeners",
+			"LoginStore.lis",
+			"LoginStore.user",
+			"AuthStore",
+			"AppHeader",
+			"AuthStore",
+			"_currentID",
+			"_threads",
+			"LoginStore",
+			"assign",
+			"AuthStore",
+			".react",
+			"MessagesPage",
+			"UsersPage",
+			"LoginPage",
+			".react",
+			"PageHeader",
+			"super",
+			"Page",
+			"Page.react",
+			"	Dispatcher",
+			"Dispatcher",
+			"this.props.thread",
+			"threads",
+			"AuthStore",
+			"#dinpo-page-content",
+			"#dinpo-page",
+			"passport",
+			"console.log",
+			"dinpo-dropdown",
+			"';\n",
+			");\n",
+			"LOGIN_EVENT",
+			"admin",
+			"user",
+			"';\n",
+			"@base",
+			":hover",
+			"public",
+			"qwery",
+			"qwery]",
+			"qwery",
+			"routes",
+			"passport",
+			"email",
+			"\";\n",
+			");\n",
+			"radius",
+			"@radius",
+			" 4px",
+			" 4px ",
+			".border-radius",
+			"4px",
+			"emit",
+			"';\n",
+			": function",
+			"\";",
+			"norty",
+			"error(",
+			"Norty",
+			"icon",
+			"Norty",
+			".dinpo-page-visitors-item",
+			".dinpo-page-visitors-item.act",
+			"dinpo-page-visitors-item-current-title",
+			"dinpo-page-visitors-item-title",
+			"margin: 0 auto;\n  max-width: 450px;\n  width: 100%;\n  padding: 20vh 20px 10px 20px;",
+			"#dinpo-page-login",
+			"#dinpo-page",
+			"sans-serif",
+			"/>\n",
+			"';\n",
+			"this.state.login",
+			"dinpo-dn",
+			"dinpo-page-content",
+			"dinpo-page-wrapper"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"events"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/dinpo/src/js/components/Login/index.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								161,
+								161
+							],
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/var/www/html/dinpo",
+							"dired_count": 29,
+							"dired_index":
+							[
+								"⠤",
+								"/var/www/html/dinpo/dist/",
+								"/var/www/html/dinpo/lib/",
+								"/var/www/html/dinpo/models/",
+								"/var/www/html/dinpo/node_modules/",
+								"/var/www/html/dinpo/src/",
+								"/var/www/html/dinpo/src/images/",
+								"/var/www/html/dinpo/src/js/",
+								"/var/www/html/dinpo/src/js/actions/",
+								"/var/www/html/dinpo/src/js/components/",
+								"/var/www/html/dinpo/src/js/components/elements/",
+								"/var/www/html/dinpo/src/js/components/Login/",
+								"/var/www/html/dinpo/src/js/components/Login/index.jsx",
+								"/var/www/html/dinpo/src/js/components/Messages/",
+								"/var/www/html/dinpo/src/js/components/Users/",
+								"/var/www/html/dinpo/src/js/dispatchers/",
+								"/var/www/html/dinpo/src/js/services/",
+								"/var/www/html/dinpo/src/js/stores/",
+								"/var/www/html/dinpo/src/js/utils/",
+								"/var/www/html/dinpo/src/js/app.js",
+								"/var/www/html/dinpo/src/style/",
+								"/var/www/html/dinpo/views/",
+								"/var/www/html/dinpo/.sublime-gulp.cache",
+								"/var/www/html/dinpo/config.json",
+								"/var/www/html/dinpo/gulpfile.js",
+								"/var/www/html/dinpo/index.html",
+								"/var/www/html/dinpo/package.json",
+								"/var/www/html/dinpo/routes.js",
+								"/var/www/html/dinpo/server.js",
+								"/var/www/html/dinpo/sockets.js"
+							],
+							"dired_path": "/var/www/html/dinpo/",
+							"dired_rename_mode": false,
+							"syntax": "Packages/FileBrowser/dired.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ServerActions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/dinpo/src/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/html/dinpo/src/style/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12203,
+								12203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12018.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 75.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.gulp_output":
+	{
+		"height": 318.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 110.0
+	},
+	"pinned_build_system": "",
+	"project": "/home/murdock/SublimeProjects/simple-import-js.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"src/js/components/Login/index.jsx"
+			],
+			[
+				"styl.",
+				"src/style/style.less"
+			],
+			[
+				"serv",
+				"src/js/actions/ServerActions.js"
+			],
+			[
+				"app",
+				"src/js/app.js"
+			],
+			[
+				"style.",
+				"src/style/style.less"
+			],
+			[
+				"ogin/in",
+				"src/js/components/Login/index.jsx"
+			],
+			[
+				"inde",
+				"index.py"
+			],
+			[
+				"impo",
+				"import-es6.py"
+			],
+			[
+				"socket",
+				"server/sockets.js"
+			],
+			[
+				"chat.",
+				"src/build/components/Chat.jsx"
+			],
+			[
+				"sock",
+				"server/sockets.js"
+			],
+			[
+				"style",
+				"src/build/style.less"
+			],
+			[
+				"loginsto",
+				"src/build/stores/LoginStore.js"
+			],
+			[
+				"we",
+				"src/build/utils/Webhook.js"
+			],
+			[
+				"ser",
+				"server/server.js"
+			],
+			[
+				"web",
+				"src/build/utils/Webhook.js"
+			],
+			[
+				"threac",
+				"src/build/actions/ThreadActionCreators.js"
+			],
+			[
+				"thre",
+				"src/build/stores/ThreadStore.js"
+			],
+			[
+				"actio",
+				"src/build/actions/ServerActionCreators.js"
+			],
+			[
+				"thresse",
+				"src/build/components/ThreadSection.jsx"
+			],
+			[
+				"threa",
+				"src/build/components/ThreadListItem.jsx"
+			],
+			[
+				"styl",
+				"src/build/style.less"
+			],
+			[
+				"socet",
+				"server/sockets.js"
+			],
+			[
+				"socke",
+				"server/sockets.js"
+			],
+			[
+				"gul",
+				"src/gulpfile.js"
+			],
+			[
+				"sty",
+				"src/build/style.less"
+			],
+			[
+				"stlye.",
+				"src/build/style.less"
+			],
+			[
+				"conf",
+				"server/config.json"
+			],
+			[
+				"routes",
+				"server/routes.js"
+			],
+			[
+				"route",
+				"server/routes.js"
+			],
+			[
+				"socket.s",
+				"server/sockets.js"
+			],
+			[
+				"auth",
+				"src/build/stores/AuthStore.js"
+			],
+			[
+				"appcon",
+				"src/build/constants/AppConstants.js"
+			],
+			[
+				"servera",
+				"src/build/actions/ServerActionCreators.js"
+			],
+			[
+				"app.j",
+				"src/build/app.js"
+			],
+			[
+				"socket.js",
+				"server/node_modules/socket.io/lib/socket.js"
+			],
+			[
+				"rout",
+				"server/routes.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"aut",
+				"src/build/stores/AuthStore.js"
+			],
+			[
+				"authsto",
+				"src/build/stores/AuthStore.js"
+			],
+			[
+				"login",
+				"src/build/components/LoginPage.react.js"
+			],
+			[
+				"confi",
+				"server/config.json"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"dinpo.css",
+				"src/dist/dinpo.css"
+			],
+			[
+				"dinpo.cs",
+				"src/dist/dinpo.css"
+			],
+			[
+				"gu",
+				"src/gulpfile.js"
+			],
+			[
+				"newp",
+				"build/react/components/FSPages/FSNewPage.jsx"
+			],
+			[
+				"prelo",
+				"public/css/preloader.css"
+			],
+			[
+				"preload",
+				"build/react/components/elements/Preloader.jsx"
+			],
+			[
+				"pre",
+				"public/css/preloader.css"
+			],
+			[
+				"prel",
+				"build/react/components/elements/Preloader.jsx"
+			],
+			[
+				"fsnewp",
+				"build/react/components/FSPages/FSNewPage.jsx"
+			],
+			[
+				"fsnew",
+				"build/react/components/FSNewPage.jsx"
+			],
+			[
+				"test.jade",
+				"~/production/Norty/views/view/test.jade"
+			],
+			[
+				"routes/ind",
+				"routes/index.js"
+			],
+			[
+				"dash",
+				"views/view/dashboard.jade"
+			],
+			[
+				"dist/app.js",
+				"dist/build/react/app.js"
+			],
+			[
+				"u",
+				"bundle.js"
+			],
+			[
+				"boo",
+				"public/css/bootstrap.css"
+			],
+			[
+				"login.ja",
+				"views/view/login.jade"
+			],
+			[
+				"hea",
+				"views/layouts/header.jade"
+			],
+			[
+				"das",
+				"views/view/dashboard.jade"
+			],
+			[
+				"pro",
+				"views/view/profile.jade"
+			],
+			[
+				"head",
+				"views/layouts/header.jade"
+			],
+			[
+				"prof",
+				"views/view/profile.jade"
+			],
+			[
+				"boot",
+				"public/css/bootstrap.css"
+			],
+			[
+				"profi",
+				"views/view/profile.jade"
+			],
+			[
+				"header",
+				"views/layouts/header.jade"
+			],
+			[
+				"dashboar",
+				"views/view/dashboard.jade"
+			],
+			[
+				"routes/i",
+				"routes/index.js"
+			],
+			[
+				"user",
+				"models/User.js"
+			],
+			[
+				"use",
+				"models/User.js"
+			],
+			[
+				"routes/in",
+				"routes/index.js"
+			],
+			[
+				"logi",
+				"views/view/login.jade"
+			],
+			[
+				"login.",
+				"views/view/login.jade"
+			],
+			[
+				"index.j",
+				"routes/index.js"
+			],
+			[
+				"signup.ja",
+				"views/view/signup.jade"
+			],
+			[
+				"ap",
+				"app.js"
+			],
+			[
+				"indes",
+				"routes/index.js"
+			],
+			[
+				"a",
+				"app.js"
+			],
+			[
+				"singp",
+				"views/view/signup.jade"
+			],
+			[
+				"index.js",
+				"routes/index.js"
+			],
+			[
+				"index.",
+				"routes/index.js"
+			],
+			[
+				"scrip",
+				"views/elements/scripts.jade"
+			],
+			[
+				"login.j",
+				"views/view/login.jade"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"se",
+				"server.js"
+			],
+			[
+				"ind",
+				"views/index.jade"
+			],
+			[
+				"tes",
+				"tests/test.js"
+			],
+			[
+				"p",
+				"package.json"
+			],
+			[
+				"test",
+				"tests/test.js"
+			],
+			[
+				"sign",
+				"views/view/signup.jade"
+			],
+			[
+				"sockets",
+				"sockets.js"
+			],
+			[
+				"indexj.",
+				"routes/index.js"
+			],
+			[
+				"test.js",
+				"public/js/test.js"
+			],
+			[
+				"js/test",
+				"public/js/test.js"
+			],
+			[
+				"import",
+				".importjs.json"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"inde.ja",
+				"views/view/index.jade"
+			],
+			[
+				"contact.jad",
+				"views/view/contact.jade"
+			],
+			[
+				"contac",
+				"build/html/contact.html"
+			],
+			[
+				"about",
+				"views/view/about.jade"
+			],
+			[
+				"s",
+				"socket-server.js"
+			],
+			[
+				"io",
+				"node_modules/gulp-html2jade/node_modules/html2jade/node_modules/jsdom-little/node_modules/cssstyle/lib/properties/borderImageOutset.js"
+			],
+			[
+				"pak",
+				"package.json"
+			],
+			[
+				"ww",
+				"bin/www"
+			],
+			[
+				"app.",
+				"app.js"
+			],
+			[
+				"singup",
+				"views/view/signup.jade"
+			],
+			[
+				"erro",
+				"views/view/error.jade"
+			],
+			[
+				"loginj",
+				"views/view/login.jade"
+			],
+			[
+				"login.ht",
+				"html/login.html"
+			],
+			[
+				"cada",
+				"views/view/cadastrar.jade"
+			],
+			[
+				"singu",
+				"public/css/signup.css"
+			],
+			[
+				"cad",
+				"views/view/cadastrar.jade"
+			],
+			[
+				"index.jad",
+				"views/view/index.jade"
+			],
+			[
+				"sear",
+				"views/view/search.jade"
+			],
+			[
+				"syt",
+				"public/css/style.css"
+			],
+			[
+				"dashboard.ja",
+				"views/view/dashboard.jade"
+			],
+			[
+				"index.ht",
+				"html/index.html"
+			],
+			[
+				"dah",
+				"html/dashboard.html"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"all",
+				"node_modules/forever/node_modules/forever-monitor/examples/all-env-vars.js"
+			],
+			[
+				"task",
+				"models/Task.js"
+			],
+			[
+				"me",
+				"models/Message.js"
+			],
+			[
+				"task.js",
+				"/var/www/html/intrasocial/app/Model/Task.js"
+			],
+			[
+				"poll",
+				"webroot/templates/feed/poll.html"
+			],
+			[
+				"feed",
+				"View/Elements/feed.ctp"
+			],
+			[
+				"modal",
+				"View/Elements/modalConfigs.ctp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

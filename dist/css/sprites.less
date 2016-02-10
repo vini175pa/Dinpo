@@ -1,0 +1,34 @@
+@camera: -0px -90px 26px 23px;
+@chat-logo-min: -90px -59px 26px 26px;
+@chat-logo-white: -0px -59px 90px 31px;
+@chat-logo: -0px -0px 190px 59px;
+@check: -72px -113px 24px 24px;
+@chevron-down: -168px -59px 16px 13px;
+@edit: -96px -113px 24px 24px;
+@remove-active: -0px -113px 24px 24px;
+@remove-white: -24px -113px 24px 24px;
+@remove: -48px -113px 24px 24px;
+@send-disabled: -142px -59px 26px 25px;
+@send: -116px -59px 26px 25px;
+.sprite-width(@sprite) {
+  width: extract(@sprite, 3);
+}
+.sprite-height(@sprite) {
+  height: extract(@sprite, 4);
+}
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 1);
+  @sprite-offset-y: extract(@sprite, 2);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+.sprite(@sprite, @display: block) {
+  .sprite-position(@sprite);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: @display;
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+.dinpo-icon {
+  background-image: url('../images/sprite.png');
+}

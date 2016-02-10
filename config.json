@@ -1,0 +1,10 @@
+{
+	"KEY" : "Dinpo",
+	"SECRET": "This is not paid and this is not a secret",
+	"PORT": "3000",
+
+	"MONGODB_DB" : "dinpo",
+	"MONGODB_HOST": "127.0.0.1",
+	"MONGODB_PORT": "27017"
+
+}

@@ -1,0 +1,1254 @@
+@charset "utf-8";
+/** ICONS **/
+/** ICONS  ---------- **/
+/* Standard syntax */
+@-webkit-keyframes dinpo-alert {
+  0% {
+    opacity: 1;
+    margin-left: 20px;
+  }
+  50% {
+    opacity: .9;
+    margin-left: 25px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 20px;
+  }
+}
+@keyframes dinpo-alert {
+  0% {
+    opacity: 1;
+    margin-left: 20px;
+  }
+  50% {
+    opacity: .9;
+    margin-left: 25px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 20px;
+  }
+}
+@-webkit-keyframes dinpo-anim-rotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes dinpo-anim-rotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes dinpo-progressbar {
+  from {
+    left: 50%;
+    width: 0;
+    z-index: 100;
+  }
+  33.3333% {
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  to {
+    left: 0;
+    width: 100%;
+  }
+}
+@keyframes dinpo-progressbar {
+  from {
+    left: 50%;
+    width: 0;
+    z-index: 100;
+  }
+  33.3333% {
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  to {
+    left: 0;
+    width: 100%;
+  }
+}
+@-webkit-keyframes dinpo-move {
+  0% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
+@keyframes dinpo-move {
+  0% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
+#dinpo {
+  font-size: 16px;
+}
+#dinpo,
+#dinpo input,
+#dinpo button,
+#dinpo textarea {
+  color: #545454;
+  font-family: Arial, Helvetica, Sans-serif;
+}
+#dinpo,
+#dinpo div,
+#dinpo input,
+#dinpo button,
+#dinpo ul,
+#dinpo li,
+#dinpo h1,
+#dinpo h2,
+#dinpo h3,
+#dinpo h4,
+#dinpo h5,
+#dinpo h6,
+#dinpo p,
+#dinpo textarea,
+#dinpo span {
+  box-sizing: border-box;
+  outline: none;
+}
+#dinpo .dinpo-icon {
+  background-image: url('../img/dinpo-sprite.png');
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+#dinpo .dinpo-icon-camera {
+  background-position: 0px -90px;
+  width: 26px;
+  height: 23px;
+}
+#dinpo .dinpo-icon-chat-logo-min {
+  background-position: -90px -59px;
+  width: 26px;
+  height: 26px;
+}
+#dinpo .dinpo-icon-chat-logo-white {
+  background-position: 0px -59px;
+  width: 90px;
+  height: 31px;
+}
+#dinpo .dinpo-icon-chat-logo {
+  background-position: 0px 0px;
+  width: 190px;
+  height: 59px;
+}
+#dinpo .dinpo-icon-check {
+  background-position: -72px -113px;
+  width: 24px;
+  height: 24px;
+}
+#dinpo .dinpo-icon-chevron-down {
+  background-position: -168px -59px;
+  width: 16px;
+  height: 13px;
+}
+#dinpo .dinpo-icon-edit {
+  background-position: -96px -113px;
+  width: 24px;
+  height: 24px;
+}
+#dinpo .dinpo-icon-remove-active {
+  background-position: 0px -113px;
+  width: 24px;
+  height: 24px;
+}
+#dinpo .dinpo-icon-remove-white {
+  background-position: -24px -113px;
+  width: 24px;
+  height: 24px;
+}
+#dinpo .dinpo-icon-remove {
+  background-position: -48px -113px;
+  width: 24px;
+  height: 24px;
+}
+#dinpo .dinpo-icon-send-disabled {
+  background-position: -142px -59px;
+  width: 26px;
+  height: 25px;
+}
+#dinpo .dinpo-icon-send {
+  background-position: -116px -59px;
+  width: 26px;
+  height: 25px;
+}
+#dinpo .dinpo-force-block {
+  display: block !important;
+}
+#dinpo .dinpo-load-balls {
+  position: relative;
+  height: 35px;
+  padding-top: 10px;
+  display: block;
+  text-align: center;
+}
+#dinpo .dinpo-load-balls .dinpo-load-ball {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #000;
+  display: inline-block;
+  margin-left: 15px;
+}
+#dinpo .dinpo-load-balls .dinpo-load-ball-1 {
+  -webkit-animation: dinpo-move 0.5s ease-in-out infinite alternate;
+          animation: dinpo-move 0.5s ease-in-out infinite alternate;
+  background: #a77dc2;
+}
+#dinpo .dinpo-load-balls .dinpo-load-ball-2 {
+  -webkit-animation: dinpo-move 0.5s ease-in-out -0.125s infinite alternate;
+          animation: dinpo-move 0.5s ease-in-out -0.125s infinite alternate;
+  background: #f44336;
+}
+#dinpo .dinpo-load-balls .dinpo-load-ball-3 {
+  -webkit-animation: dinpo-move 0.5s ease-in-out -0.25s infinite alternate;
+          animation: dinpo-move 0.5s ease-in-out -0.25s infinite alternate;
+  background: #f4b400;
+}
+#dinpo .dinpo-load-balls .dinpo-load-ball-4 {
+  -webkit-animation: dinpo-move 0.5s ease-in-out -0.375s infinite alternate;
+          animation: dinpo-move 0.5s ease-in-out -0.375s infinite alternate;
+  background: #2ab27b;
+}
+#dinpo .dinpo-progress-bar {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background-color: #fdba2c;
+}
+#dinpo .dinpo-progress-bar.dinpo-progress-bar-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#dinpo .dinpo-progress-bar .dinpo-bar {
+  content: "";
+  display: inline;
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 50%;
+  text-align: center;
+  -webkit-animation: dinpo-progressbar 4s linear infinite;
+          animation: dinpo-progressbar 4s linear infinite;
+}
+#dinpo .dinpo-progress-bar .dinpo-bar-1 {
+  background-color: #A77DC2;
+}
+#dinpo .dinpo-progress-bar .dinpo-bar-2 {
+  background-color: #F44336;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+#dinpo .dinpo-progress-bar .dinpo-bar-3 {
+  background-color: #F4B400;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+#dinpo .dinpo-progress-bar .dinpo-bar-4 {
+  background-color: #2ab27b;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+#dinpo .dinpo-warning {
+  color: #F44336;
+}
+#dinpo .dinpo-overflow-ellipsis {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#dinpo hr {
+  outline: none;
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 0;
+}
+#dinpo .dinpo-dropdown {
+  position: absolute;
+  z-index: 9;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  border: 0;
+  opacity: 0;
+  transition: margin-top 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  margin-top: -10px;
+}
+#dinpo .dinpo-dropdown > ul {
+  list-style-type: none;
+  padding: 10px 12px;
+  margin: 0;
+}
+#dinpo .dinpo-dropdown > ul > li.divider {
+  height: 21px;
+  position: relative;
+}
+#dinpo .dinpo-dropdown > ul > li.divider > hr {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+#dinpo .dinpo-dropdown > ul > li.divider > .divider-text {
+  text-align: center;
+  position: relative;
+}
+#dinpo .dinpo-dropdown > ul > li.divider > .divider-text > span {
+  background: #fff;
+  padding: 0 10px ;
+  font-size: 13px;
+  color: #9e9ea6 ;
+}
+#dinpo .dinpo-dropdown > ul > li > a {
+  text-decoration: none;
+  display: block;
+  color: #555;
+  font-size: 15px;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+#dinpo .dinpo-dropdown > ul > li > a:hover {
+  background: #f2f2f2;
+}
+#dinpo .dinpo-dropdown.active,
+#dinpo .dinpo-dropdown-wrapper.active > .dinpo-dropdown {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  background: #fff;
+  min-width: 130px;
+  opacity: 1;
+  margin-top: 0;
+  height: auto;
+  width: auto;
+}
+#dinpo .dinpo-fancy-scrollbar::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+#dinpo .dinpo-fancy-scrollbar::-webkit-scrollbar-button:end:increment,
+#dinpo .dinpo-fancy-scrollbar::-webkit-scrollbar-button:start:decrement {
+  background: 0 0;
+  display: none;
+}
+#dinpo .dinpo-fancy-scrollbar::-webkit-scrollbar-track-piece {
+  background: rgba(0, 0, 0, 0.15);
+}
+#dinpo .dinpo-fancy-scrollbar::-webkit-scrollbar-track-piece:vertical:start {
+  border-radius: 5px 5px 0 0;
+}
+#dinpo .dinpo-fancy-scrollbar::-webkit-scrollbar-track-piece:vertical:end {
+  border-radius: 0 0 5px 5px;
+}
+#dinpo .dinpo-fancy-scrollbar::-webkit-scrollbar-track-piece:horizontal:start {
+  border-radius: 5px 0 0 5px;
+}
+#dinpo .dinpo-fancy-scrollbar::-webkit-scrollbar-track-piece:horizontal:end {
+  border-radius: 0 5px 5px 0;
+}
+#dinpo .dinpo-fancy-scrollbar::-webkit-scrollbar-thumb:horizontal,
+#dinpo .dinpo-fancy-scrollbar::-webkit-scrollbar-thumb:vertical {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: block;
+  height: 50px;
+}
+#dinpo a {
+  color: #0A85FE;
+  text-decoration: none;
+  cursor: pointer;
+}
+#dinpo a:hover {
+  color: #67AFFF;
+  text-decoration: underline;
+}
+#dinpo .dinpo-relative {
+  position: relative;
+}
+#dinpo .dinpo-clearfix {
+  clear: both;
+}
+#dinpo .dinpo-dn {
+  display: none !important;
+}
+#dinpo a.dinpo-user-image {
+  display: block;
+}
+#dinpo .dinpo-user-image {
+  border-radius: 3px;
+  background: #A77CC1;
+  border: 0;
+  display: inline-block;
+  background-size: cover;
+  word-spacing: 0;
+  width: 36px;
+  height: 36px;
+}
+#dinpo .dinpo-user-image-min {
+  width: 28px;
+  height: 28px;
+}
+#dinpo .dinpo-margin-top {
+  margin-top: 20px;
+}
+#dinpo .dinpo-fill-width {
+  width: 100%;
+}
+#dinpo .dinpo-p-large {
+  font-size: 18px;
+}
+#dinpo .dinpo-button-transparent {
+  border: 0;
+  background: none;
+  outline: 0;
+  cursor: pointer;
+}
+#dinpo .dinpo-button {
+  min-height: 36px;
+  padding: 7px 12px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+#dinpo .dinpo-button-sm {
+  min-height: 32px;
+  padding: 6px 11px;
+}
+#dinpo .dinpo-button-lg {
+  min-height: 50px;
+  padding: 12px 18px;
+}
+#dinpo .dinpo-button-sm {
+  font-size: 13px;
+}
+#dinpo .dinpo-button-lg {
+  font-size: 20px;
+}
+#dinpo .dinpo-button-primary {
+  background: #2ab27b;
+}
+#dinpo .dinpo-button-primary:hover {
+  background: #2fc789;
+}
+#dinpo .dinpo-button-primary:focus {
+  background: sature(#2ab27b, 10%);
+}
+#dinpo .dinpo-input {
+  min-height: 36px;
+  padding: 7px 12px;
+  border-radius: 3px;
+  border: 1px solid #c5c5c5;
+  font-size: 16px;
+}
+#dinpo .dinpo-input-sm {
+  min-height: 32px;
+  padding: 6px 11px;
+}
+#dinpo .dinpo-input-lg {
+  min-height: 50px;
+  padding: 12px 18px;
+}
+#dinpo .dinpo-input:hover,
+#dinpo .dinpo-input:focus {
+  border-color: #0A85FE;
+}
+#dinpo .dinpo-input:focus {
+  box-shadow: 0 0 7px rgba(10, 133, 254, 0.15);
+  outline-offset: 0;
+  outline: 0;
+}
+#dinpo .dinpo-input-sm {
+  font-size: 14px;
+}
+#dinpo .dinpo-input-lg {
+  font-size: 20px;
+}
+#dinpo #dinpo-alert {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 999;
+  display: none;
+}
+#dinpo #dinpo-alert.active {
+  display: block !important;
+}
+#dinpo #dinpo-alert #dinpo-alert-content {
+  background: #DADFDE;
+  border-radius: 10px;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 30%;
+  max-width: 300px;
+  min-height: 50px;
+  margin: auto;
+}
+#dinpo #dinpo-alert #dinpo-alert-title {
+  margin: 0 0 10px  0;
+  font-weight: 500;
+  font-size: 18px;
+}
+#dinpo #dinpo-alert #dinpo-alert-body {
+  padding: 30px 15px 20px 15px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+}
+#dinpo #dinpo-alert #dinpo-alert-close {
+  position: absolute;
+  right: 30px;
+  top: 70px;
+  opacity: .8;
+  width: 62px;
+  height: 62px;
+  padding: 15px 20px;
+}
+#dinpo #dinpo-alert #dinpo-alert-close:hover {
+  opacity: 1;
+}
+#dinpo #dinpo-alert #dinpo-alert-close-text {
+  display: block;
+  font-size: 10px;
+  color: #fff;
+}
+#dinpo #dinpo-alert #dinpo-alert-buttons {
+  border-top: 1px solid #c7cccc;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+#dinpo #dinpo-alert #dinpo-alert-buttons > button {
+  color: #0A85FE;
+  cursor: pointer;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  border: 0;
+  background: none;
+  float: left;
+  font-size: 18px;
+  padding: 15px;
+  border-left: 1px solid #c7cccc;
+}
+#dinpo #dinpo-alert #dinpo-alert-buttons > button.dinpo-alert-button-warning {
+  color: #F44336;
+}
+#dinpo #dinpo-alert #dinpo-alert-buttons > button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+#dinpo #dinpo-alert #dinpo-alert-buttons > button:last-child {
+  border-bottom-right-radius: 10px;
+}
+#dinpo #dinpo-alert #dinpo-alert-buttons > button:first-child {
+  border-bottom-left-radius: 10px;
+  border-left-width: 0 !important;
+}
+#dinpo #dinpo-login-content {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 20vh 20px 20px 40px;
+  text-align: center;
+  position: relative;
+}
+#dinpo #dinpo-login-content:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1px;
+  z-index: 9;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0);
+  transition: background 0.1s ease-in-out;
+}
+#dinpo #dinpo-login-content.disabled:after {
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  background: rgba(255, 255, 255, 0.4);
+}
+#dinpo #dinpo-footer {
+  padding: 20px 40px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#dinpo #dinpo-footer > a,
+#dinpo #dinpo-footer > span {
+  color: #999;
+  margin-right: 20px;
+}
+#dinpo #dinpo-footer > a {
+  font-weight: bold;
+}
+#dinpo #dinpo-author {
+  position: absolute;
+  right: 20px;
+  bottom: 12px;
+}
+#dinpo #dinpo-author > span,
+#dinpo #dinpo-author > span > a {
+  vertical-align: top;
+}
+#dinpo #dinpo-author > span {
+  color: #666;
+  padding: 5px 15px;
+  display: inline-block;
+}
+#dinpo #dinpo-sidebar {
+  background: #333333;
+  width: 250px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header.active > #dinpo-sidebar-header-logo-button,
+#dinpo #dinpo-sidebar #dinpo-sidebar-header #dinpo-sidebar-header-logo-button:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header > #dinpo-sidebar-header-logo-button {
+  display: block;
+  cursor: pointer;
+  padding: 20px 16px 12px 16px ;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header > #dinpo-sidebar-header-logo-button > .dinpo-button-transparent {
+  float: right;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header > .dinpo-dropdown {
+  left: 15px;
+  right: -15px;
+  top: 60px;
+  min-width: 250px;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header > #dinpo-flash {
+  background: #444;
+  display: none;
+  z-index: 9;
+  border-radius: 3px;
+  padding: 10px 14px;
+  color: #fff;
+  position: absolute;
+  left: 100%;
+  margin-left: 20px;
+  top: 10px;
+  white-space: nowrap;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header > #dinpo-flash.active {
+  display: block;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header > #dinpo-flash:after {
+  content: '';
+  border-style: solid;
+  border-color: transparent #444;
+  height: 0px;
+  border-width: 7px 7px 7px 0;
+  position: absolute;
+  left: -6px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header > #dinpo-flash.dinpo-flash-animated {
+  -webkit-animation: dinpo-alert 1s infinite;
+          animation: dinpo-alert 1s infinite;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header > #dinpo-flash.dinpo-flash-warning {
+  background: #F44336;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header > #dinpo-flash.dinpo-flash-warning:after {
+  border-color: transparent #F44336;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header > #dinpo-flash.dinpo-flash-success {
+  background: #2ab27b;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-header > #dinpo-flash.dinpo-flash-success:after {
+  border-color: transparent #2ab27b;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-container {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 63px;
+  bottom: 0;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-scroll {
+  overflow-y: auto;
+  height: 100%;
+  margin-right: 5px;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-scroll::-webkit-scrollbar-button:start,
+#dinpo #dinpo-sidebar #dinpo-sidebar-scroll::-webkit-scrollbar-button:end {
+  display: block;
+  height: 8px;
+  width: 8px;
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-scroll::-webkit-scrollbar-track-piece {
+  background: rgba(0, 0, 0, 0.12);
+}
+#dinpo #dinpo-sidebar #dinpo-sidebar-scroll::-webkit-scrollbar-thumb:horizontal,
+#dinpo #dinpo-sidebar #dinpo-sidebar-scroll::-webkit-scrollbar-thumb:vertical {
+  background: rgba(255, 255, 255, 0.4);
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list .dinpo-sidebar-list-content {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list .dinpo-sidebar-list-title {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 4px 16px;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list .dinpo-sidebar-list-length {
+  color: rgba(255, 255, 255, 0.4);
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list .dinpo-sidebar-list-item {
+  padding-right: 10px;
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list .dinpo-sidebar-list-item .dinpo-list-item-indicator {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list .dinpo-sidebar-list-item .dinpo-list-item-indicator.active {
+  background: rgba(255, 255, 255, 0.7);
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list .dinpo-sidebar-list-item .dinpo-list-item-new-messages {
+  color: rgba(255, 255, 255, 0.3);
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list .dinpo-sidebar-list-item > a {
+  color: #888;
+  font-size: 16px;
+  display: block;
+  padding: 5px 5px 5px 16px;
+  border-radius: 0 4px 4px 0;
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list .dinpo-sidebar-list-item > a:hover {
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.2);
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list .dinpo-sidebar-list-item.active > a {
+  background: #2ab27b;
+  color: #fff;
+}
+#dinpo #dinpo-sidebar .dinpo-sidebar-list .dinpo-sidebar-list-item.active .dinpo-list-item-new-messages {
+  color: rgba(255, 255, 255, 0.7);
+}
+#dinpo #dinpo-content {
+  position: absolute;
+  left: 250px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: top .2s;
+}
+#dinpo #dinpo-content.dinpo-loading {
+  top: 6px;
+}
+#dinpo #dinpo-content.dinpo-loading #dinpo-header > .dinpo-progress-bar {
+  display: block;
+  top: -6px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#dinpo #dinpo-messages .dinpo-message {
+  padding: 5px 20px 3px 25px;
+}
+#dinpo #dinpo-messages #dinpo-messages-container {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  right: 0;
+  bottom: 64px;
+  overflow-y: hidden;
+  padding-right: 5px;
+}
+#dinpo #dinpo-messages #dinpo-messages-footer {
+  position: absolute;
+  height: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#dinpo #dinpo-messages #dinpo-messages-scroll {
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  margin-right: 5px;
+  padding: 20px 0;
+}
+#dinpo #dinpo-messages #dinpo-messages-scroll::-webkit-scrollbar-button:start,
+#dinpo #dinpo-messages #dinpo-messages-scroll::-webkit-scrollbar-button:end {
+  display: block;
+  height: 8px;
+  width: 8px;
+}
+#dinpo #dinpo-messages #dinpo-message-composer {
+  padding: 0px 25px;
+  position: relative;
+}
+#dinpo #dinpo-messages #dinpo-message-composer #dinpo-message-composer-send {
+  position: absolute;
+  right: 0;
+  width: 48px;
+  height: 42px;
+  padding: 12px 15px;
+  top: 0;
+  z-index: 1;
+}
+#dinpo #dinpo-messages #dinpo-message-composer-textarea {
+  font-size: 15px;
+  resize: none;
+  line-height: 22px;
+  height: 42px;
+  width: 100%;
+  padding: 9px 48px 9px 15px;
+}
+#dinpo #dinpo-messages #dinpo-message-composer-textarea:disabled,
+#dinpo #dinpo-messages #dinpo-message-composer-textarea:disabled:hover {
+  cursor: block;
+  opacity: .9;
+  background: #FBFBF7;
+  border-color: #ddd;
+}
+#dinpo #dinpo-users #dinpo-sidebar {
+  width: 58px;
+}
+#dinpo #dinpo-users #dinpo-content {
+  left: 58px;
+}
+#dinpo #dinpo-users #dinpo-sidebar-header-logo-button {
+  text-align: center;
+}
+#dinpo #dinpo-users #dinpo-users-container {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  overflow-y: hidden;
+  padding-right: 5px;
+}
+#dinpo #dinpo-users #dinpo-users-scroll {
+  overflow-y: auto;
+  height: 100%;
+  padding: 80px 0;
+}
+#dinpo #dinpo-users #dinpo-users-content {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0px 10px 0 20px ;
+}
+#dinpo #dinpo-users #dinpo-users-title {
+  text-align: center;
+  max-width: 560px;
+  margin: 0 auto;
+}
+#dinpo #dinpo-users #dinpo-users-title > h1 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 400;
+}
+#dinpo #dinpo-users #dinpo-users-title > h4 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #999;
+  margin-top: 15px;
+}
+#dinpo #dinpo-users .dinpo-user-row {
+  padding: 10px 0;
+}
+#dinpo #dinpo-users .dinpo-user-row.dinpo-delete-highlight > .dinpo-user-row-content {
+  background: #FFDCDC;
+}
+#dinpo #dinpo-users .dinpo-user-row.dinpo-delete-highlight .dinpo-user-col-actions {
+  opacity: 1;
+}
+#dinpo #dinpo-users .dinpo-user-row.dinpo-delete-highlight .dinpo-user-col-actions .dinpo-user-col-action-edit {
+  opacity: .5;
+}
+#dinpo #dinpo-users .dinpo-user-row.dinpo-delete-highlight .dinpo-user-col-actions .dinpo-icon-remove {
+  background-position: 0px -113px;
+  width: 24px;
+  height: 24px;
+}
+#dinpo #dinpo-users .dinpo-user-row:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1px;
+  z-index: 9;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0);
+  transition: background 0.1s ease-in-out;
+}
+#dinpo #dinpo-users .dinpo-user-row.disabled:after {
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  background: rgba(255, 255, 255, 0.8);
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-row-content {
+  padding: 10px 98px 10px 64px;
+  border-radius: 3px;
+  display: table;
+  width: 100%;
+  position: relative;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-row-divider {
+  position: absolute;
+  left: 64px;
+  right: 108px;
+  top: -10px;
+  background: #eee;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-photo {
+  margin-left: -54px;
+  float: left;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-photo > span {
+  display: block;
+}
+#dinpo #dinpo-users .dinpo-user-row:first-child .dinpo-user-row-divider {
+  display: none;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-actions {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  opacity: .4;
+  transition: opacity 0.1s ease-in-out;
+  padding-right: 10px;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-actions > button {
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+  margin: 10px 4px;
+  float: left;
+  min-height: 0;
+}
+#dinpo #dinpo-users .dinpo-user-row:hover .dinpo-user-col-actions {
+  opacity: 1;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-email,
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-name,
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-password {
+  padding: 9px 10px 8px  10px;
+  float: left;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-email {
+  width: 32%;
+  padding-left: 0;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-name {
+  width: 30%;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-password {
+  width: 20%;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-role {
+  padding: 4px 10px;
+  width: 18%;
+  float: left;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-user-col-role .dinpo-role {
+  float: left;
+  max-width: 100%;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-role {
+  font-weight: 500;
+  padding: 7px 10px 6px  10px;
+  border-radius: 3px;
+  font-size: 13px;
+  background: #529ECC;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-role,
+#dinpo #dinpo-users .dinpo-user-row .dinpo-role > span {
+  color: #fff;
+}
+#dinpo #dinpo-users .dinpo-user-row .dinpo-role.dinpo-role-admin {
+  background: #A77DC2;
+}
+#dinpo #dinpo-users .dinpo-user-row #dinpo-user-add-button {
+  border-radius: 3px;
+  display: block;
+  padding: 16px;
+  background: #fcfcfc;
+  border: 1px solid #eee;
+}
+#dinpo #dinpo-users .dinpo-users-disable-all .dinpo-user-row {
+  position: relative;
+}
+#dinpo #dinpo-users .dinpo-users-disable-all .dinpo-user-row:after {
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  background: rgba(255, 255, 255, 0.8);
+}
+#dinpo #dinpo-users .dinpo-users-disable-all .dinpo-user-row .dinpo-user-col-actions {
+  opacity: 1;
+}
+#dinpo #dinpo-users .dinpo-user-row-not-disabled:after {
+  display: none !important;
+}
+#dinpo #dinpo-users .dinpo-add-user .dinpo-user-col-photo,
+#dinpo #dinpo-users .dinpo-add-user .dinpo-user-col-actions {
+  padding-top: 24px;
+}
+#dinpo #dinpo-users .dinpo-add-user #dinpo-user-add-photo {
+  position: relative;
+  overflow: hidden;
+}
+#dinpo #dinpo-users .dinpo-add-user #dinpo-user-add-photo .dinpo-remove-photo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  display: none;
+  cursor: pointer;
+}
+#dinpo #dinpo-users .dinpo-add-user #dinpo-user-add-photo > .dinpo-icon {
+  display: none;
+}
+#dinpo #dinpo-users .dinpo-add-user #dinpo-user-add-photo > input {
+  bottom: 0;
+  font-size: 1000px !important;
+  height: 300px;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  display: none;
+}
+#dinpo #dinpo-users .dinpo-add-user #dinpo-user-add-photo:hover .dinpo-remove-photo {
+  display: block;
+}
+#dinpo #dinpo-users .dinpo-add-user #dinpo-user-add-photo.dinpo-no-photo {
+  border: 2px dashed #ccc;
+  background: #f6f6f6;
+}
+#dinpo #dinpo-users .dinpo-add-user #dinpo-user-add-photo.dinpo-no-photo > .dinpo-icon {
+  display: block;
+  margin: 9px 7px;
+}
+#dinpo #dinpo-users .dinpo-add-user #dinpo-user-add-photo.dinpo-no-photo:hover .dinpo-remove-photo {
+  display: none !important;
+}
+#dinpo #dinpo-users .dinpo-add-user #dinpo-user-add-photo.dinpo-no-photo > input {
+  display: block;
+}
+#dinpo #dinpo-users .dinpo-add-user .dinpo-user-row-content .dinpo-input {
+  width: 100%;
+}
+#dinpo #dinpo-users .dinpo-add-user .dinpo-user-col-actions {
+  opacity: 1 !important;
+}
+#dinpo #dinpo-users .dinpo-add-user .dinpo-user-col-email,
+#dinpo #dinpo-users .dinpo-add-user .dinpo-user-col-name,
+#dinpo #dinpo-users .dinpo-add-user .dinpo-user-col-password,
+#dinpo #dinpo-users .dinpo-add-user .dinpo-user-col-role {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#dinpo #dinpo-users .dinpo-add-user label {
+  margin-bottom: 5px;
+  display: block;
+  font-weight: 500;
+}
+#dinpo .dinpo-log {
+  height: 21px;
+  position: relative;
+  margin: 20px 0;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#dinpo .dinpo-log > hr {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+#dinpo .dinpo-log > .dinpo-log-text {
+  text-align: center;
+  position: relative;
+  font-weight: 500;
+}
+#dinpo .dinpo-log > .dinpo-log-text > span {
+  background: #fff;
+  padding: 0 10px ;
+  font-size: 15px;
+}
+#dinpo .dinpo-message:hover {
+  background: #F9F9F9;
+}
+#dinpo .dinpo-message.dinpo-message-error-highlight {
+  background: #FFDCDC;
+}
+#dinpo .dinpo-message.dinpo-message-sending {
+  opacity: .6;
+}
+#dinpo .dinpo-message .dinpo-message-content {
+  margin-left: 46px;
+}
+#dinpo .dinpo-message .dinpo-message-content > .dinpo-user-image {
+  float: left;
+  margin-left: -46px;
+}
+#dinpo .dinpo-message .dinpo-message-author {
+  font-size: 15px;
+  font-weight: bold;
+  color: #444;
+}
+#dinpo .dinpo-message .dinpo-message-body,
+#dinpo .dinpo-message .dinpo-message-log {
+  margin: 0;
+  font-size: 15px;
+  line-height: 22px;
+}
+#dinpo .dinpo-message .dinpo-message-log {
+  color: #999;
+}
+#dinpo .dinpo-message .dinpo-message-log > a {
+  font-weight: 500;
+}
+#dinpo .dinpo-message .dinpo-message-timestamp {
+  color: #9e9ea6;
+  font-size: 12px;
+  margin-left: 5px;
+}
+#dinpo .dinpo-message .dinpo-message-error {
+  color: #F44336;
+  font-size: 13px;
+  margin-left: 5px;
+  float: right;
+  cursor: pointer;
+}
+#dinpo .dinpo-message .dinpo-message-error:hover {
+  text-decoration: underline;
+}
+#dinpo #dinpo-header {
+  height: 54px;
+}
+#dinpo #dinpo-header > .dinpo-progress-bar {
+  display: none;
+}
+#dinpo #dinpo-header #dinpo-header-title {
+  float: left;
+  padding: 12px 25px 13px 25px;
+}
+#dinpo #dinpo-header #dinpo-header-title > h2 {
+  margin: 0;
+  font-size: 23px;
+  float: left;
+}
+#dinpo #dinpo-header #dinpo-header-title span {
+  color: #999;
+}
+#dinpo #dinpo-header #dinpo-header-current-link {
+  float: left;
+  padding: 5px;
+  margin-left: 15px;
+}
+#dinpo #dinpo-header #dinpo-header-user {
+  float: right;
+  padding: 6px 10px;
+  position: relative;
+}
+#dinpo #dinpo-header #dinpo-header-user > .dinpo-dropdown {
+  right: auto;
+  right: 10px;
+  top: 54px;
+  left: 10px;
+}
+#dinpo #dinpo-header #dinpo-header-user.active > #dinpo-header-user-button,
+#dinpo #dinpo-header #dinpo-header-user #dinpo-header-user-button:hover {
+  background: #f2f2f2;
+}
+#dinpo #dinpo-header #dinpo-header-user #dinpo-header-user-button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding: 7px 7px 7px 15px;
+  border-radius: 3px;
+  height: 42px;
+  cursor: pointer;
+}
+#dinpo #dinpo-header #dinpo-header-user #dinpo-header-user-button > span {
+  vertical-align: top;
+  padding: 5px 6px 4px 0px;
+  display: inline-block;
+}

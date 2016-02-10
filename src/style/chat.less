@@ -1,0 +1,456 @@
+@chatBackground:#ffffff;
+@headerBackground: #2ab27b;
+@headerTitleColor: #fff;
+@inputBackground:#fff;
+@inputColor:#333;
+
+
+@redColor: #F44336;
+@greenColor: #2ab27b;
+@blueColor: #0A85FE;
+@purpleColor: #A77DC2;
+@yeelowColor: #F4B400;
+
+
+@linkColor: @blueColor;
+@linkHoverColor: #67AFFF;
+
+@errorHighlightColor: #FFDCDC;
+
+
+body{
+  background: #f6f6f6;
+}
+
+
+.border-radius(@radius){
+  border-radius: @radius;
+}
+
+.user-select(@value) {
+  -webkit-user-select: @value;  /* Chrome all / Safari all */
+  -moz-user-select: @value;     /* Firefox all */
+  -ms-user-select: @value;      /* IE 10+ */
+  user-select: @value; 
+}
+
+
+@-moz-keyframes dinpo-move {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+@-webkit-keyframes dinpo-move {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+@-o-keyframes dinpo-move {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+@keyframes dinpo-move {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+#dinpo{
+  
+  font-size: 16px;
+  
+  .dinpo-load-balls {
+    position: relative;
+    height: 35px;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    
+    &, .dinpo-load-ball{
+      
+        cursor: default;
+      .user-select(none);
+    }
+
+    .dinpo-load-ball {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background: #000;
+        display: inline-block;
+        margin-left: 15px;
+
+        &-1 {
+          animation: dinpo-move 0.5s ease-in-out infinite alternate;
+          background: #a77dc2;
+        }
+
+        &-2 {
+          animation: dinpo-move 0.5s ease-in-out -0.125s infinite alternate;
+          background: #f44336;
+        }
+
+        &-3 {
+          animation: dinpo-move 0.5s ease-in-out  -0.25s infinite alternate;
+          background: #f4b400;
+        }
+
+        &-4 {
+          animation: dinpo-move 0.5s ease-in-out -0.375s infinite alternate;
+          background: #2ab27b;
+        }
+    }
+    
+    &-md{
+      .dinpo-load-ball{
+        height: 16px;
+        width: 16px;
+        margin-left: 10px;
+      }
+    }
+  }
+  
+  .dinpo-fancy-scrollbar::-webkit-scrollbar {
+      height: 8px;
+      width: 8px
+  }
+
+  .dinpo-fancy-scrollbar::-webkit-scrollbar-button:end:increment,
+  .dinpo-fancy-scrollbar::-webkit-scrollbar-button:start:decrement {
+      background: 0 0;
+      display: none
+  }
+
+  .dinpo-fancy-scrollbar::-webkit-scrollbar-track-piece {
+      background: rgba(0,0,0,.05)
+  }
+
+  .dinpo-fancy-scrollbar::-webkit-scrollbar-track-piece:vertical:start {
+      border-radius: 5px 5px 0 0
+  }
+
+  .dinpo-fancy-scrollbar::-webkit-scrollbar-track-piece:vertical:end {
+      border-radius: 0 0 5px 5px;
+
+  }
+
+  .dinpo-fancy-scrollbar::-webkit-scrollbar-track-piece:horizontal:start {
+      border-radius: 5px 0 0 5px
+  }
+
+  .dinpo-fancy-scrollbar::-webkit-scrollbar-track-piece:horizontal:end {
+      border-radius: 0 5px 5px 0
+  }
+
+  .dinpo-fancy-scrollbar::-webkit-scrollbar-thumb:horizontal,
+  .dinpo-fancy-scrollbar::-webkit-scrollbar-thumb:vertical {
+      background: rgba(0,0,0,.2);
+      border-radius: 5px;
+      display: block;
+      height: 50px;
+  }
+  
+  .dinpo-dn{
+    display: none !important;
+  }
+  
+  a.dinpo-user-image{
+    display: block;
+  }
+  
+  .dinpo-user-image{
+    .border-radius(3px);
+      background: #A77CC1;
+      border: 0;
+      display: inline-block;
+      background-size: cover;
+      word-spacing: 0;
+    
+    &{
+      width: 32px;
+      height: 32px;
+    }
+    
+    &-min{
+      width: 28px;
+      height: 28px;
+    }
+    
+  }
+  
+  hr{
+    outline: none;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 0;
+  }
+  
+  a{
+    color: @linkColor;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+      color: @linkHoverColor;
+      text-decoration: underline
+    }
+  }
+  
+  
+  &, input, button, textarea{
+    color: #545454;
+  }
+  
+  &, div, input, button, ul, li, h1, h2, h3, h4, h5, h6, p, textarea, span{
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  
+ 
+   
+  .dinpo-message{
+    padding:  5px 10px 3px 10px;
+    
+    &:hover{
+      background: #F9F9F9;
+    }
+    
+    &.dinpo-message-error-highlight{
+      background: @errorHighlightColor;
+    }
+    
+    &.dinpo-message-sending{
+      opacity: .6;
+    }
+    
+    
+    
+    
+    .dinpo-message-content{
+      margin-left: 42px;
+      
+      > .dinpo-user-image{
+        float: left;
+        margin-left: -42px;
+      }
+    }
+    
+    .dinpo-message-author{
+      font-size: 14px;
+      font-weight: bold;
+      color: #444;
+    }
+    
+    .dinpo-message-body,
+    .dinpo-message-log{
+      margin: 0;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    
+    .dinpo-message-log{
+      color: #999;
+      
+      >a {
+        font-weight: 500;
+      }
+    }
+    
+    .dinpo-message-timestamp{
+      color: #9e9ea6;
+      font-size: 12px;
+      margin-left: 5px;
+    }
+    
+    .dinpo-message-error{
+      color: @redColor;
+      font-size: 13px;
+      margin-left: 5px;
+      float: right;
+      cursor: pointer;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+    
+  }
+  
+  .dinpo-log{
+      height: 21px;
+      position: relative;
+      margin: 20px 0;
+      cursor: default;
+      .user-select(none);
+
+      > hr{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+      }
+
+      > .dinpo-log-text{
+        text-align: center;
+        position: relative;
+        font-weight: 500;
+
+        > span{
+          background: #fff;
+          padding: 0 10px ;
+          font-size: 15px;
+        }
+      }
+  }
+  
+  #dinpo-chat{
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    margin: 0px 20px;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    display: block!important;
+    z-index: 99999999;
+    
+    .dinpo-log{
+      height: 17px;
+      margin:10px 0;
+      .dinpo-log-text > span{
+        font-size: 13px;
+      }
+    }
+    
+  }
+  
+  
+  
+  #dinpo-chat-window{
+    background: @chatBackground;
+    width: 280px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+  }
+  
+  #dinpo-chat-window, #dinpo-chat-header{
+    border-radius: 4px 4px 0 0;
+  }
+  
+  #dinpo-chat-header{
+    background: @headerBackground;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  #dinpo-chat-header-title{
+    padding: 14px;
+    display: block;
+    font-size: 15px;
+    margin: 0;
+    color: @headerTitleColor;
+  }
+  
+  #dinpo-chat-content{
+    overflow: hidden;
+    position: relative
+  }
+  
+  #dinpo-chat-messages{
+    height: 300px;
+  }
+  
+  #dinpo-chat-messages-container{
+    height: 100%;
+    margin-right: 5px;
+    overflow-y: auto;
+    padding: 10px 0;
+    
+    &::-webkit-scrollbar-button:start,
+    &::-webkit-scrollbar-button:end{
+        display: block;
+        height:8px;
+        width: 8px
+    }
+      
+  }
+  
+  #dinpo-chat-composer{
+    min-height: 45px;
+    width: 100%;
+    box-shadow: 0 -1px rgba(0,0,0,.05);
+    background: @inputBackground;
+    position: relative;
+  }
+  
+  #dinpo-chat-input{
+    border-width: 0;
+    resize: none;
+    width: 100%;
+    padding: 14px;
+    font-size: 14px;
+  }
+  
+  #dinpo-chat-error{
+    height: 345px;
+    padding: 10px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 9;
+    background: rgba(255,255,255,.9);
+    display: none;
+    
+    
+    &.active{
+      display: block;
+    }
+    
+    .dinpo-message:hover{
+      background: none;
+    }
+  }
+  
+  #dinpo-chat-error-footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    > span{
+      display: block;
+      padding: 20px;
+      color: #999;
+      text-align: center;
+    }
+  }
+  
+  
+    
+  
+ 
+}
