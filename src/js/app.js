@@ -1,6 +1,7 @@
+import RouterContainer from "./services/RouterContainer";
 import ReactDOM from 'react-dom';
 import React from 'react';
 
-import Login from './components/Login';
 
-ReactDOM.render(<Login initialLoading={true}/>, document.getElementById("dinpo"));
+ReactDOM.render(RouterContainer.get(), document.getElementById('dinpo'));
+

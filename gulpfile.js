@@ -31,7 +31,7 @@ gulp.task('css-min', function () {
       plugins: [autoprefix, cleancss]
     }))
     .pipe(rename("dinpo.min.css"))
-    .pipe(gulp.dest('./dist/css'));
+    .pipe(gulp.dest('dist/css'));
 });
 
 gulp.task("less-both", ["less", "less-min"]);

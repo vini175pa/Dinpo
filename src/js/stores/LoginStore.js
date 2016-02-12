@@ -35,8 +35,8 @@ class LoginStore extends BaseStore {
 		}
 	}
 
-	getUser() {
-		return this._user;
+	get user() {
+		return this._user
 	}
 
 	isLoggedIn() {

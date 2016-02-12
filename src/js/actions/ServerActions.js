@@ -4,8 +4,22 @@ import LoginStore from "../stores/LoginStore";
 
 export default {
 	login(email, password) {
-		return when.promise(function(resolve, reject){
-			reject(true);
-		});
+		return this.handleAuth(when(request({
+			url: '/login'
+		  , type: 'json'
+		  , method: 'post'
+		  , crossOrigin: true
+		  , data: { email, password }
+		})));
+	},
+
+	handleAuth(loginPromise) {
+		return loginPromise
+			.then((response) => {
+				if(response.error || !response.user)
+					throw new Error(response.error);
+
+				return response
+			});
 	}
 }

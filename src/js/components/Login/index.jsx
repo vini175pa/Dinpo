@@ -1,5 +1,5 @@
+import React from "react";
 import RequiredInput from "../elements/RequiredInput";
-import React from 'react';
 import classNames from 'classnames';
 import ProgressBar from '../elements/ProgressBar';
 import ServerActions from '../../actions/ServerActions';
@@ -13,17 +13,18 @@ export default class Login extends React.Component{
 	handleSubmit(event){
 		event.preventDefault();
 
+		var self = this;
+
 		var { emailInput, passwordInput } = this.refs;
 
 
 		if(!emailInput.validate() | !passwordInput.validate())
 			return
 
-
 		var email = emailInput.value,
 			password = passwordInput.value;
 
-		var self = this;
+
 
 		ServerActions
 			.login(email, password)
@@ -64,7 +65,7 @@ export default class Login extends React.Component{
 			        <div id="dinpo-login-content" className={loginContentClass}>
 			            <a href=""><span className="dinpo-icon dinpo-icon-chat-logo"></span></a>
 			            <p className="dinpo-p-large">Insira seu <b>endereço de email</b> e sua <b>senha</b> </p>
-			            <form action="" onSubmit={this.handleSubmit.bind(this)}>
+			            <form action="/login" method="POST" onSubmit={this.handleSubmit.bind(this)}>
 				            <RequiredInput ref="emailInput" type="text" placeholder="you@domain.com" className="dinpo-fill-width dinpo-margin-top" spellCheck="false" large/>
 				            <RequiredInput ref="passwordInput" type="password" placeholder="ex., ••••••••••••" className="dinpo-fill-width dinpo-margin-top" spellCheck="false" large/>
 				            <button type="submit" className="dinpo-button dinpo-button-lg dinpo-button-primary dinpo-margin-top dinpo-fill-width">Fazer login</button>

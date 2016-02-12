@@ -34,7 +34,7 @@ function authenticate (user, password, done) {
 			if(res)
 				done(null, user);
 			else
-				done(null, false);
+				done(new Error("Email or password incorrect"), false);
 		}
 	});
 
@@ -87,7 +87,7 @@ schema.statics.authenticate = function(){
 	var self = this;
 
 	// returns a function because it is used on LocalStrategy
-	// otherwise 'this' would be equals a Strategy Object
+	// otherwise 'this' would be a Strategy Object
 	return function(email, password, done){
 		if(!email || !password)
 			return done(null, false);
@@ -95,7 +95,7 @@ schema.statics.authenticate = function(){
 		self.findByEmail(email, function(err, user){
 			if(err) done(err);
 			if(!user)
-				return done(null, false);
+				return done(new Error("Email or password incorrect"), false);
 			return user.authenticate(password, done)
 		});
 	}

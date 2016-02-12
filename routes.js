@@ -25,15 +25,23 @@ module.exports = function (passport) {
 
 
 	router.post("/login", function (req, res, next) {
-		req.session.test1 = "aaa";
-		req.session.save();
-		passport.authenticate('local', function(err, user, info) {
-			if (err) { return res.json({error: err, user: null}); }
-			if (!user) { return res.json({error: err, user: null}); }
+		passport.authenticate('local', function(error, user, info) {
+			var asJSON = req.headers.accept.indexOf("application/json") > -1;
+
+			if (error || !user)
+				return asJSON ? res.status(401).json({error: error ? error.message : error, user: null}) : res.redirect("/?login_error=1");
+
+
+
 			req.logIn(user, function(err) {
-				if (err) { return res.json({error: err, user: null}); }
-				return res.json({error: null, user: user});
+				if (err){
+					return asJSON ? res.status(500).json({error: err, user: null}) : res.redirect("/?login_error=1");
+				}
+
+				asJSON ? res.json({error: err, user: user}) : res.redirect("/");
+
 			});
+
 		})(req, res, next);
 	});
 
