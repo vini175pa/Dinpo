@@ -40,7 +40,6 @@ export default class WebService{
 	onReconnectionError ( error ) { console.error("Reconnection error ", error); }
 
 	connect() {
-		console.log("asdasd");
 		this.socket.connect();
 	}
 
