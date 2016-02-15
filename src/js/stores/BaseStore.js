@@ -9,10 +9,10 @@ export default class BaseStore extends EventEmitter {
   _createEvent(event, override){
     var self = this;
     return assign({
-       "event": event,
-         "add": function(fn) { self.on(event, fn); },
-      "remove": function(fn) { self.removeListener(event, fn); },
-        "emit": function() { self.emit(event); }
+           "event": event,
+     "addListener": function(fn) { self.on(event, fn); },
+  "removeListener": function(fn) { self.removeListener(event, fn); },
+            "emit":   function() { self.emit(event); }
     }, override);
   }
 

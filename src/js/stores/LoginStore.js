@@ -4,6 +4,7 @@ import BaseStore from './BaseStore';
 class LoginStore extends BaseStore {
 
 	_user = null;
+	_token = localStorage.getItem("auth_token");
 
 	constructor(){
 	    super();
@@ -11,24 +12,30 @@ class LoginStore extends BaseStore {
 
 	    // emit, add, remove
 	    this.events = {
-	    	change: this._createEvent("CHANGE"),
-	    	loginFailed: this._createEvent("LOGIN_FAILED")
+	    	change: this._createEvent("CHANGE")
 	    }
 	}
 
 	_registerToActions(action) {
+
 		switch(action.type){
-			case ActionTypes.LOGIN_RESPONSE:
-				if(action.error || !action.user)
-					this.events.loginFailed.emit(action.error);
-				else{
-					this._user = action.user;
-					this.events.change.emit();
-				}
+			case ActionTypes.AUTH_LOGIN:
+				var {token, user} = action;
+
+				if( this._token != token)
+					localStorage.setItem("auth_token", token);
+
+				this._user = user;
+				this._token = token;
+
+				this.events.change.emit()
 				break;
-			case ActionTypes.LOGOUT:
+			case ActionTypes.AUTH_LOGOUT:
+				console.log("LOGOUT");
+				this._token = null;
 				this._user = null;
-				this.events.change.emit();
+				this.events.change.emit()
+				localStorage.removeItem("auth_token");
 				break;
 			default:
 
@@ -39,8 +46,16 @@ class LoginStore extends BaseStore {
 		return this._user
 	}
 
+	get token() {
+		return this._token
+	}
+
 	isLoggedIn() {
-		return !!this._user;
+		return !!this._token;
+	}
+
+	isAuthenticated() {
+		return !!this._token && !!this._user;
 	}
 
 }
